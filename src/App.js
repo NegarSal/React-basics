@@ -18,9 +18,13 @@ function App() {
     })
     console.log(id)
   }
+  const subtitle = "All the latest events in mario kingdom"
+
   return (
     <div className="App">
-      <Title />
+      <Title title="Event in Your Area" subtitle={subtitle} />
+      <Title title="Another title" subtitle="Another subtitle" />
+
       {showEvents && (
         <div>
           <button onClick={() => setShowEvents(false)}>hide events</button>
