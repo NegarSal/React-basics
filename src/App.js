@@ -41,7 +41,16 @@ function App() {
           <button onClick={() => handleClick(event.id)}>delete event</button>
         </React.Fragment>
       ))}
-      <Modal />
+      {/* <Modal>
+        <h2>10% off Coupon Code!!</h2>
+        <p>Use the code NINJA10 at the checkout.</p>
+      </Modal> */}
+      <Modal>
+        <h2>Terms and Conditions</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+          sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+          magna aliquam erat volutpat.</p>
+      </Modal>
     </div>
   );
 }
