@@ -43,10 +43,7 @@ function App() {
         </div>
       )}
       {showEvents && <EventList events={events} handleClick={handleClick} />}
-      {/* <Modal>
-        <h2>10% off Coupon Code!!</h2>
-        <p>Use the code NINJA10 at the checkout.</p>
-      </Modal> */}
+      
       {showModal && <Modal handleClose={handleClose} isSalesModal={true}>
         <NewEventForm />
       </Modal>}
